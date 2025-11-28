@@ -1,3 +1,3 @@
 FROM nginx:alpine
 COPY hello.txt /usr/share/nginx/html/index.html
-EXPOSE 80
+EXPOSE 3000
